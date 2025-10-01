@@ -1,0 +1,175 @@
+
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box
+}
+
+/* Masukan font-family di google font */
+.navbar-brand{
+    font-family: "Playwrite AU QLD", cursive;
+    font-size: 2rem;
+    color: black;
+}
+
+.navbar-branch:hover{
+    color: black;
+}
+
+/* Masukan font-family di google font */
+.nav-link{
+    font-family: "Galindo", sans-serif;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+/nav-link:hover{
+    color: black;
+}
+
+/* navbar selesai */
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(245, 26, 92);
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(245, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+/* Css Navbar selesai */
+
+
+/* Main Section */
+.main{
+    background: url(https://media.istockphoto.com/photos/blended-fruit-smoothies-picture-id637122248?k=20&m=637122248&s=170667a&w=0&h=BML3Mow9hiclGKjhO4KAu8taoiHdn_Z5LglX9-jY2Gw=) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn:hover{
+    background-color: rgb(223, 15, 77);
+    transition: 0.5;
+}
+
+h1{
+    font-weight: 700;
+}
+
+/* ukur gambar smoothies */
+.new img {
+    height: 200px;      /* semua tinggi gambar sama */
+    width: 100%;        /* biar full lebar card */
+}
+/* Main Section over */
+
+/* ukuran gambar sama */
+.product .card-body img {
+  height: 200px;      /* semua tinggi gambar sama */
+  width: 100%;        /* biar full lebar card */
+}
+
+/* card-hover */
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+}
+
+.about img {
+    height: 200px;      /* semua tinggi gambar sama */
+    width: 100%;        /* biar full lebar card */
+}
+
+.shop img {
+     height: 200px;      /* semua tinggi gambar sama */
+     width: 100%;        /* biar full lebar card */
+}
+
+/* Second Section */
+
+.apple{
+    background: url(https://content.api.news/v3/images/bin/b356568531cfdbefb6b99f14c68db96d) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+
+}
+
+.apple h1{
+    font-family: "Galindo", sans-serif;
+}
+
+/* news section */
+
+.news{
+    background-color: black;
+    color: white;
+}
+
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.news input{
+    height: 45px
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news::Placeholder{
+    color: white;
+}
+
+.news p{
+    margin: 0;
+}
+
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 3px;
+}

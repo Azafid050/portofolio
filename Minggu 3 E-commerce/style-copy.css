@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    Margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+.navbar-branch:hover{
+    color: black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Macondo", cursive;
+}
+
+.search{
+    height: 40px;
+    width: 65%;
+    outline: none;
+    border: 2px solid rgb(245, 26, 92);
+    border-radius: 60px;
+    margin-right: -35px;
+
+
+}
+
+.btn0{
+    height: 40px;
+    width: 65%;
+    outline: none;
+    border: none;
+    background: rgb(245, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+/* main section */
+
+.main h1{
+    font-size: 4rem
+    font-weight: 700;
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+.main{
+    background: url(https://media.istockphoto.com/id/673367482/id/foto/bermacam-macam-smoothie-buah-dan-sayuran-dalam-botol-kaca-dengan-sedotan.jpg?s=1024x1024&w=is&k=20&c=_xIWglZ5W8pyLbQfXYwCJSEuIA_oMfle-51ZLvGDRRs=) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    margin: auto;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background: rgb(245, 26, 92);
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn:hover{
+    background-color: rgb(223,15,77);
+    transition: 0.5;
+}
+
+h1{
+    font-weight: 700;
+    color: black;
+}
+
+/* ukuran smoothie di new section */
+
+.new img{
+    height: 200px;
+    width: 100%;
+}
+
+.product .card-body img{
+    height: 200px;
+    width: 100%;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.71);
+-webkit-box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.71);
+-moz-box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.71);
+}
+
+.about img{
+    height: 200px;
+    width: 100%;
+}
+
+.shop img{
+    height: 200px;
+    width: 100%;
+}
+
+/* iklan section */
+
+.iklan{
+    background: url(https://th.bing.com/th/id/R.fa5bbe958c0e421554ca33b5df45f2cb?rik=Zyr16CHDq02x0A&riu=http%3a%2f%2fstonetownchiro.com%2fwp-content%2fuploads%2f2018%2f01%2f2eb286a520-poi446.215-qx100.png&ehk=nMgvGapFcbBNUG0MW4O2vrNzNU8oygFlfMCpSPjvNj0%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.iklan h1{
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+/* iklan section end */
+
+
+/* news section start */
+
+.news{
+    background-color: black;
+    color: white;
+}
+
+
+.btn2{
+    margin-left: -10px;
+    border: 2px solid white;
+    height: 45px;
+    width: 100px;
+    background: white;
+    font-weight: 600;
+}
+
+
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news::placeholder{
+    color: white;
+}
+
+.news p{
+    margin: 0;
+}
+

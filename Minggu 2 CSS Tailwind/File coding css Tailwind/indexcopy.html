@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth sm:scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwindcss</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+
+  <!-- Header -->
+   <header class="bg-teal-600 text-white sticky top-0 z-10">
+      <div class="relative w-full max-w-6xl p-4 flex item-center justify-between">
+
+  <!-- logo cangkir -->
+        <h1 class="text-2xl font-medium">
+          <a href="#Herbal Herb Tea">🍵Herbal Herb Tea</a>
+        </h1>
+
+  <!-- checkbox -->
+        <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+  <!-- Hamburger menu dan cross mark -->
+        <label for="menu-toggle" class="sm:hidden cursor-pointer w-8 h-8 flex item-center justify-center relatif z-50">
+          <!-- logo menu bar -->
+           <svg xmlns="http://www.w3.org/2000/svg" class="absolute w-8 h-8 transition-opacity duration-300 peer-checked:opacity-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 8h24M4 16h24M4 24h24"/>
+       </svg>
+      <!-- logo cross mark -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="absolute w-8 h-8 transition-opacity duration-300 opacity-0 peer-checked:opacity-100" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 6l12 12M18 6l-12 12"/>
+      </svg>
+    </label>
+
+      <!-- overlay -->
+       <label for="menu-toggle" class="fixed inset-0 bg-black bg-opacity-50 opacity-0 pointer-events-none transition-opacity duration-300 peer-checked:opacity-100 peer:checked:pointer-event-auto sm:hidden z-40 "></label>
+
+  <!-- Navbar -->
+        <nav class="fixed top-0 left-0 h-full w-64 bg-teal-700 text-white flex flex-col items-start gap-6 py-20 px-6 transform -translate-x-full opacity-0 transition-transform transition-opacity duration-500 peer-checked:translate-x-0 peer-checked:opacity-100 sm:relative sm:flex-row sm:gap-12 sm:py-6 sm:px-0 sm:top-auto sm:left-auto sm:h-auto sm:w-auto sm:translate-x-0 sm:opacity-100 z-50">
+          <a class="hover:opacity-90"
+          href="#Our-Product">Our Product</a>
+          <a class="hover:opacity-90"
+          href="#Testimonials">Testimonials</a>
+          <a class="hover:opacity-90"
+          href="#Contact us">Contact us</a>
+          <a class="hover:opacity-90"
+          href="#footer">Footer</a>
+        </nav>
+      </div>
+   </header>
+
+   <!-- Tulisan di bawah navbar -->
+    <main class="max-w-2xl mx-auto">
+      <section id="Herbal Herb Tea" class="min-h-screen flex scroll-mt-40 flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40 ">
+          <article class="sm:w-1/2">
+            <h2 class="max-w-md text-4xl font-bold text-center sm:text-4xl sm:text-left text-slate-500 dark:text-white">
+              Come and Buy Our Herbal Tea for <span class="text-red-500 dark:text-red-300">Medicine or Herbal,</span> It Can Warm Your Body
+            </h2>
+            <p class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-600 dark:bg-slate-300">
+              This Recipe is passed from our Great Grandpa
+            </p>
+
+            <p class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-600 dark:bg-slate-300">
+              Every three purchases, you will get free tea seed
+            </p>
+          </article>
+
+      <!-- gambar herbal tea -->
+          <img class="w-3/4 sm:w-1/2 rounded-md"
+          src="https://th.bing.com/th/id/OIP.cNV0Onpd4C-O5DPB1GzR3AHaE8?w=268&h=186&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Gambar herbal tea">
+      </section>
+    
+    <!-- garis hitam horizontal -->
+
+      <hr class="mx-auto bg-black dark:bg-white w-2/3 border-t-2 border-black dark:border-white my-5">
+
+      <section id="Our-Product" class="p-6 my-12 scroll-mt-20 text-4xl font-bold text-center sm:text-4xl mb-6 text-4xl mb-6 text-slate-900 dark:text-white">
+        <h2>
+          Our Product
+        </h2>
+        <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center justify-center gap-8">
+          <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:text-white bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-2xl">
+            <img src="https://th.bing.com/th/id/OIP.3dXtLTes28Gg3XKIX5lDBgHaE8?w=306&h=204&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="variant tea" class="w-4/5 h-50 object-cover mb-1 rounded-2xl">
+            <h3 class="text-2xl text-center text-slate-900 dark:text-white my-1">Variant Herb Tea</h3>
+            <p class="hidden sm:block text-xl text-center text-slate-500 dark:text-slate-400 my-1">Refreshing and Healthy</p>
+            <h3 class="sm:hidden text-lg text-center text-slate-900 dark:text-white my-1">Refreshing and Healthy</h3>
+          </li>
+
+          <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:text-white bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-2xl">
+            <img src="https://th.bing.com/th/id/OIP.M8ibKnpgsMqctvshkK5kWAHaD4?w=326&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="variant tea" class="w-4/5 h-30 sm:h-30 object-cover mb-1 rounded-2xl">
+            <h3 class="text-2xl text-center text-slate-900 dark:text-white my-1">Spices and Herb</h3>
+            <p class="hidden sm:block text-xl text-center text-slate-500 dark:text-slate-400 my-1">Rich of Flavor</p>
+            <h3 class="sm:hidden text-lg text-center text-slate-900 dark:text-white my-1">Rich of Flavor </h3>
+          </li>
+
+          <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:text-white bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-2xl">
+            <img src="https://th.bing.com/th/id/OIP.bN6CsPkL68a3gEhZ9jgAPAHaLG?w=115&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="variant tea" class="w-4/5 h-40 sm:h-20 object-cover mb-1 rounded-2xl">
+            <h3 class="text-2xl text-center text-slate-900 dark:text-white my-1">With of Without Ice</h3>
+            <p class="hidden sm:block text-xl text-center text-slate-500 dark:text-slate-400 my-1">Feel the sensation of warm and cold</p>
+            <h3 class="sm:hidden text-lg text-center text-slate-900 dark:text-white my-1">Feel the sensation of warm and cold</h3>
+          </li>
+        </ul>
+      </section>
+
+      <hr class="mx-auto bg-black dark:bg-white w-2/3 border-t-2 border-black dark:border-white my-5">
+
+      <section id="Testimonials" class="p-6 my-12 scroll-mt-20 text-4xl font-bold text-center sm:text-4xl mb-6 text-4xl mb-6 text-slate-900 dark:text-white">
+        <h2>
+          Testimonials
+        </h2>
+
+        <figure class="my-12">
+          <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative over-hidden">
+            <p class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-4 before:left-6 before:text-8xl before:text-white before:opacity-25">I tried some herbal tea, this is my first time trying herbal tea, and it turns out the taste is very relaxing</p>
+            <figcaption class="italic text-xl sm:text-2xl text-right mt-4 text-slate-500 dark:text-slate-400">
+              &#8212; Robin. May, Teacher
+            </figcaption>
+            <span class="after:content-['\201D'] after:font-serif after:absolute after:bottom-9 after:right-6 after:text-8xl after:text-white dark:after:text-slate-600 after:opacity-25"></span>
+          </blockquote>
+        </figure>
+
+        <figure class="my-12">
+          <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative over-hidden">
+            <p class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-4 before:left-6 before:text-8xl before:text-white before:opacity-25">Previously l was poisoned with a small dose, after drinking herbal tea here l gradually felt better, l will become your regular costumer</p>
+            <figcaption class="italic text-xl sm:text-2xl text-right mt-4 text-slate-500 dark:text-slate-400">
+              &#8212; Teresa. Zambeale, Mayor of Greenhill
+            </figcaption>
+            <span class="after:content-['\201D'] after:font-serif after:absolute after:bottom-12 after:right-6 after:text-8xl after:text-white dark:after:text-slate-600 after:opacity-25"></span>
+          </blockquote>
+        </figure>
+
+        <figure class="my-12">
+          <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative over-hidden">
+            <p class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-4 before:left-6 before:text-8xl before:text-white before:opacity-25">I have traveled around the world and l have tasted several harbal tea, the most famous being from china. but here there is something unique, which is a hot tea menu served with ice cube</p>
+            <figcaption class="italic text-xl sm:text-2xl text-right mt-4 text-slate-500 dark:text-slate-400">
+              &#8212; Adventure. Tin Tin, Traveler
+            </figcaption>
+            <span class="after:content-['\201D'] after:font-serif after:absolute after:bottom-9 after:right-6 after:text-8xl after:text-white dark:after:text-slate-600 after:opacity-25"></span>
+          </blockquote>
+        </figure>
+
+        <!-- part 3 testimonial dan kawan kawan -->
+      </section>
+
+      <hr class="mx-auto bg-black dark:bg-white w-2/3 border-t-2 border-black dark:border-white my-5">
+
+      <section id="Contact us" class="p-6 my-12 scroll-mt-20 text-4xl font-bold text-center sm:text-4xl mb-6 text-4xl mb-6 text-slate-900 dark:text-white ">
+        <h2>
+          Contact Us
+        </h2>
+
+        <!-- mulai part 3 bagian contact us -->
+
+        <form action="" class="max-w-4xl mx-auto text-2xl sm:3xl flex flex-col items-left gap-4">
+        <label for="subject">subject</label>
+        <input type="text" id="subject" name="subject" required minlength="Your Message" maxlength="60" placeholder="Your Subject" class="text-black text-2xl sm:text3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"></textarea>
+        <button class="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none ">
+          Submit
+        </button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer id="footer" class="bg-teal-700 text-white  text-xl">
+      <section class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
+        <address>
+          <h2>Herbal Herb Tea</h2>
+          555 Highway Village<br>
+          Muse City, Dunan 45667-5678 <br>
+          Email: <a href="mailto:inquiries@acherbalherbtea">Inquiries@acherbalherbtea.com</a><br>
+          Phone: <a href="tel:=62895330418054">(+62)8953-3041-8054</a>
+        </address>
+        <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
+          <a class="hover:opacity-90"
+          href="#Our-Product">Our Product</a>
+          <a class="hover:opacity-90"
+          href="#Testimonials">Testimonial</a>
+          <a class="hover:opacity-90"
+          href="#Contact us">Contact us</a> 
+        </nav>
+        <div class="flex flex-col sm:gap-2">
+          <p class="text-right">Copyright &copy; <span id="year">2025</span></p>
+          <p class="text-right">All Right Reserved</p>
+        </div>
+      </section>
+    </footer>
+</body>
+</html>
